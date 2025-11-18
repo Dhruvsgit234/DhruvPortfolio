@@ -15,14 +15,14 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Dhruv
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
+          Software Engineer , specializing in technical
           education through hands-on learning and building applications.
         </p>
       </div>
@@ -65,9 +65,9 @@ const About = () => {
                 icon={
                   <div className='flex justify-center items-center w-full h-full'>
                     <img
-                      src={experience.icon}
+                      src='./amazon.png'
                       alt={experience.company_name}
-                      className='w-[60%] h-[60%] object-contain'
+                      className='w-[80%] h-[80%] object-fill'
                     />
                   </div>
                 }
